@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/StoreOwner.css'; // We'll create this next
+import '../styles/StoreOwner.css';
 
 function StoreOwner() {
   return (

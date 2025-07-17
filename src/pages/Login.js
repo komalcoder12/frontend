@@ -9,10 +9,10 @@ function Login() {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    // Basic validation (you can replace this with real API call)
+    
     if (email && password) {
       console.log('Logging in with', email, password);
-      navigate('/user-dashboard'); // Redirect after login
+      navigate('/user-dashboard'); 
     } else {
       alert('Please enter both email and password');
     }

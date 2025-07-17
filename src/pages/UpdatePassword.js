@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/login.css'; // Reuse existing login.css for styling
+import '../styles/login.css'; 
 
 function UpdatePassword() {
   const [formData, setFormData] = useState({
@@ -14,7 +14,7 @@ function UpdatePassword() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your update password logic here
+   
     alert('Password updated successfully!');
   };
 

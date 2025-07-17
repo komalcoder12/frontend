@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../styles/register.css'; // make sure path is correct
+import '../styles/register.css'; 
 
 function Register() {
   const [formData, setFormData] = useState({
@@ -18,7 +18,7 @@ function Register() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your register logic here
+    
     console.log('Register data:', formData);
   };
 

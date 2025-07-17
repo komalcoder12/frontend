@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/user.css'; // Make sure this file exists
+import '../styles/user.css'; 
 
 function User() {
   return (

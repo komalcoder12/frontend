@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/admin.css'; // adjust path as needed
+import '../styles/admin.css'; 
 
 function Admin() {
   return (
